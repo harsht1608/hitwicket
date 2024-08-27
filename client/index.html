@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chess-Like Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Chess-Like Game</h1>
+
+    <!-- Display the current player's turn -->
+    <div id="player-info">
+      <p>Current Turn: <span id="current-player">Waiting for players...</span></p>
+    </div>
+
+    <!-- Centered Game Board -->
+    <div class="game-board-wrapper">
+      <div id="game-board"></div>
+    </div>
+
+    <!-- Controls to interact with the game -->
+    <div id="controls">
+      <button id="start-game" class="btn">Start Game</button>
+      <button id="reset-game" class="btn">Reset Game</button>
+    </div>
+  </div>
+
+  <!-- Script to handle the game logic and UI updates -->
+  <script src="script.js"></script>
+</body>
+</html>
